@@ -10,4 +10,4 @@
 4. 커널은 jupyter notebook의 파이썬 3.9.12 활용
 
 ### 2022년 7월 30일
-1. 
+1. Chapter 1 Pandas 기초 관련 복습 진행
