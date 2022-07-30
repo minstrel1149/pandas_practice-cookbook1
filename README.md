@@ -12,3 +12,5 @@
 ### 2022년 7월 30일
 1. Chapter 1 Pandas 기초 관련 복습 진행
 2. Chapter 2 기본 DataFrame 연산 관련 복습 진행
+3. Chapter 3 DataFrame 생성과 유지 관련 복습 진행
+4. Chapter 4 데이터 분석 시작 관련 복습 진행
