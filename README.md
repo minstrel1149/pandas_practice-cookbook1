@@ -14,3 +14,6 @@
 2. Chapter 2 기본 DataFrame 연산 관련 복습 진행
 3. Chapter 3 DataFrame 생성과 유지 관련 복습 진행
 4. Chapter 4 데이터 분석 시작 관련 복습 진행
+
+### 2022년 7월 31일
+1. Chapter 5 탐색적 데이터 분석 관련 복습 진행
