@@ -38,3 +38,7 @@
 ### 2022년 8월 5일
 1. Chapter 11 Pandas 객체 병합 관련 복습 진행
 2. Chapter 12 시계열 분석 관련 복습 진행(~ing)
+
+### 2022년 8월 6일
+1. Chapter 12 시계열 분석 관련 복습 진행
+2. Chapter 13 matplotlib, seaborn을 이용한 시각화 복습 진행
