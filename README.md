@@ -45,3 +45,4 @@
 
 ### 2022년 8월 7일
 1. Chapter 13 matplotlib, seaborn을 이용한 시각화 복습 진행
+2. Chapter 14 Pandas 디버깅과 테스트 일부 관련 복습 진행
