@@ -9,6 +9,19 @@
 3. 변수명의 경우 Snake Case 활용
 4. 커널은 jupyter notebook의 파이썬 3.9.12 활용
 
+## README.md 변경 진행 중
+
+### Chapter 1. Pandas 기초
+1. df.head(n), df.tail(n) 메서드
+2. df.columns, df.index, df.values 속성, df.to_numpy() 메서드
+3. df.dtypes 속성, df.astype(type) 메서드
+4. df.info() 메서드
+5. df.size, df.shape 속성, df.count() 메서드
+6. ser.unique(), ser.nunique() 메서드
+7. ser.sample(n, random_state) 메서드
+8. ser.value_counts(normalize) 메서드
+9. df.describe(percentiles), df.quantile(q) 메서드
+
 ### 2022년 7월 30일
 1. Chapter 1 Pandas 기초 관련 복습 진행
 2. Chapter 2 기본 DataFrame 연산 관련 복습 진행
