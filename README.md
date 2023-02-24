@@ -16,17 +16,23 @@
 2. df.columns, df.index, df.values 속성, df.to_numpy() 메서드
 3. df.dtypes 속성, df.astype(type) 메서드
 4. df.info() 메서드
-5. df.size, df.shape 속성, df.count() 메서드
+5. df.size, df.shape, df.ndim 속성, df.count() 메서드
 6. ser.unique(), ser.nunique() 메서드
 7. ser.sample(n, random_state) 메서드
 8. ser.value_counts(normalize, sort, ascending) 메서드
-9. df.describe(percentiles), df.quantile(q) 메서드
+9. df.describe(percentiles, include/exclude), df.quantile(q) 메서드
 10. df.isna(), df.notna(), df.fillna(value), df.dropna(how) 메서드, ser.hasnans 속성
 11. df.add(other, fill_value) 메서드 등
 12. df.rename(mapper, axis, level) 메서드
 13. df.assign(**kwargs), df.insert(loc, col_name, value) 메서드
 14. df.all(), df.any() 메서드
 15. Index.get_loc(key) 메서드
+
+### Chapter 2. 기본 DataFrame 연산
+1. df.select_dtypes(include/exclude) 메서드
+2. df.filter(like/items/regex) 메서드
+3. df.reindex(labels) 메서드
+4. df.min(skipna, axis) 메서드 등
 
 
 
