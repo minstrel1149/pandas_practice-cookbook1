@@ -19,7 +19,7 @@
 5. df.size, df.shape, df.ndim 속성, df.count() 메서드
 6. ser.unique(), ser.nunique() 메서드
 7. ser.sample(n, random_state) 메서드
-8. ser.value_counts(normalize, sort, ascending) 메서드
+8. ser.value_counts(normalize, sort, ascending, dropna) 메서드
 9. df.describe(percentiles, include/exclude), df.quantile(q) 메서드
 10. df.isna(), df.notna(), df.fillna(value), df.dropna(how) 메서드, ser.hasnans 속성
 11. df.add(other, fill_value) 메서드 등
@@ -42,12 +42,18 @@
 2. pd.read_csv(path or buffer, dtype, index_col, usecols, nrows, parse_dates, ...) 함수
 3. df.memory_usage(deep) 메서드
 4. pd.ExcelWriter(path, engine) 함수
-4. pd.read_json(path or buffer, orient, ...) 함수
+5. pd.read_json(path or buffer, orient, ...) 함수
 
 ### Chapter 4. 데이터 분석 시작
 1. df.nlargest/nsmallest(n, columns, keep) 메서드
 2. df.drop_duplicates(subset, keep) 메서드
 3. df.droplevel(level, axis) 메서드
+
+### Chapter 5. 탐색적 데이터 분석
+1. df.isin(values) 메서드
+2. ser.str 속성 → extract(), replace(), split() 메서드 등
+3. df.pipe(func) 메서드
+4. pd.cut(x, bins, labels), pd.qcut(x, q, labels) 함수
 
 
 
