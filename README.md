@@ -66,6 +66,10 @@
 
 ### Chapter 7. 행 필터링
 1. pandas Boolean Indexing에서는 &, |, ~ 사용
+2. iloc 연산자에서 Boolean Array를 활용하려면 to_numpy() 메서드 이용 필요
+3. df.set_index(keys, drop), df.reset_index(level, drop, col_level) 메서드
+4. ser.between(left, right, inclusive) 메서드
+5. df.query(expr) 메서드 → SQL WHERE 구문 활용 가능
 
 
 ### 2022년 7월 30일
