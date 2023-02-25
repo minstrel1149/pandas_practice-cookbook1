@@ -34,7 +34,7 @@
 3. df.reindex(labels) 메서드
 4. df.min(skipna, axis) 메서드 등
 5. df.equals(df) 메서드, pd.testing.assert_frame_equal(left, right, check_dtype) 함수 등
-6. df.cumsum(axis) 메서드
+6. df.cumsum(axis), df.cummax/cummmin(axis) 메서드
 7. df.sort_values(by, ascending, kind) 메서드
 
 ### Chapter 3. DataFrame 생성과 유지
@@ -43,6 +43,11 @@
 3. df.memory_usage(deep) 메서드
 4. pd.ExcelWriter(path, engine) 함수
 4. pd.read_json(path or buffer, orient, ...) 함수
+
+### Chapter 4. 데이터 분석 시작
+1. df.nlargest/nsmallest(n, columns, keep) 메서드
+2. df.drop_duplicates(subset, keep) 메서드
+3. df.droplevel(level, axis) 메서드
 
 
 
