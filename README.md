@@ -37,6 +37,13 @@
 6. df.cumsum(axis) 메서드
 7. df.sort_values(by, ascending, kind) 메서드
 
+### Chapter 3. DataFrame 생성과 유지
+1. pd.DataFrame(data, index, column) 함수
+2. pd.read_csv(path or buffer, dtype, index_col, usecols, nrows, parse_dates, ...) 함수
+3. df.memory_usage(deep) 메서드
+4. pd.ExcelWriter(path, engine) 함수
+4. pd.read_json(path or buffer, orient, ...) 함수
+
 
 
 ### 2022년 7월 30일
