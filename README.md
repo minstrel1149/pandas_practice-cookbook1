@@ -33,6 +33,9 @@
 2. df.filter(like/items/regex) 메서드
 3. df.reindex(labels) 메서드
 4. df.min(skipna, axis) 메서드 등
+5. df.equals(df) 메서드, pd.testing.assert_frame_equal(left, right, check_dtype) 함수 등
+6. df.cumsum(axis) 메서드
+7. df.sort_values(by, ascending, kind) 메서드
 
 
 
