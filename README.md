@@ -35,7 +35,7 @@
 4. df.min(skipna, axis) 메서드 등
 5. df.equals(df) 메서드, pd.testing.assert_frame_equal(left, right, check_dtype) 함수 등
 6. df.cumsum(axis), df.cummax/cummmin(axis) 메서드
-7. df.sort_values(by, ascending, kind) 메서드
+7. df.sort_values(by, ascending, kind), df.sort_index(level, axis, ascending, kind) 메서드
 
 ### Chapter 3. DataFrame 생성과 유지
 1. pd.DataFrame(data, index, column) 함수
@@ -60,6 +60,12 @@
 8. df.unstack(level, fill_value) 메서드
 9. pd.crosstab(index, columns, dropna, normalize) 함수
 
+### Chapter 6. 데이터의 부분집합 선택
+1. Index.get_loc(key), Index.get_loc(target, method) 메서드
+2. Index.is_monotonic_increasing(), Index.is_monotonic_decreasing() 메서드
+
+### Chapter 7. 행 필터링
+1. pandas Boolean Indexing에서는 &, |, ~ 사용
 
 
 ### 2022년 7월 30일
