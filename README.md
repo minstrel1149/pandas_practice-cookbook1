@@ -70,6 +70,7 @@
 3. df.set_index(keys, drop), df.reset_index(level, drop, col_level) 메서드
 4. ser.between(left, right, inclusive) 메서드
 5. df.query(expr) 메서드 → SQL WHERE 구문 활용 가능
+6. df.where(cond, other), df.mask(cond, other) 메서드
 
 
 ### 2022년 7월 30일
