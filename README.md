@@ -51,9 +51,14 @@
 
 ### Chapter 5. 탐색적 데이터 분석
 1. df.isin(values) 메서드
-2. ser.str 속성 → extract(), replace(), split() 메서드 등
+2. ser.str 속성 → extract(), replace(), split(), contains() 메서드 등
 3. df.pipe(func) 메서드
 4. pd.cut(x, bins, labels), pd.qcut(x, q, labels) 함수
+5. ser.clip(lower, upper) 메서드
+6. ser.cov(ser), ser.corr(ser, method) 메서드
+7. 범주를 줄이기 위한 generalize() 함수 작성
+8. df.unstack(level, fill_value) 메서드
+9. pd.crosstab(index, columns, dropna, normalize) 함수
 
 
 
