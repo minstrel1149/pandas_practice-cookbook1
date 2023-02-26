@@ -77,6 +77,14 @@
 2. pd.to_numeric(arg, errors) 함수
 3. df.idxmax/idxmin(skipna, axis, numeric_only) 메서드
 
+### Chapter 9. 그룹화를 위한 집계, 필터링, 변환
+1. df.groupby(by, as_index, observed, dropna) 메서드
+2. df.groupby.GroupBy.agg(func, *args, **kwargs) 메서드
+3. pd.NamedAgg(column, aggfunc) 함수
+4. Index.get_level_values(level) 메서드
+5. Index.to_flat_index() 메서드 → 활용하여 flatten_cols 함수 제작 가능
+
+
 
 ### 2022년 7월 30일
 1. Chapter 1 Pandas 기초 관련 복습 진행
