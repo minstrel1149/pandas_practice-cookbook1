@@ -75,6 +75,7 @@
 ### Chapter 8. 인덱스 정렬
 1. 인덱스의 정렬과 카티션 곱의 개념
 2. pd.to_numeric(arg, errors) 함수
+3. df.idxmax/idxmin(skipna, axis, numeric_only) 메서드
 
 
 ### 2022년 7월 30일
