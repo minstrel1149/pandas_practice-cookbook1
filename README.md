@@ -21,7 +21,7 @@
 7. ser.sample(n, random_state) 메서드
 8. ser.value_counts(normalize, sort, ascending, dropna) 메서드
 9. df.describe(percentiles, include/exclude), df.quantile(q) 메서드
-10. df.isna(), df.notna(), df.fillna(value), df.dropna(how) 메서드, ser.hasnans 속성
+10. df.isna(), df.notna(), df.fillna(value, method), df.dropna(how) 메서드, ser.hasnans 속성
 11. df.add(other, fill_value) 메서드 등
 12. df.rename(mapper, axis, level) 메서드
 13. df.assign(**kwargs), df.insert(loc, col_name, value) 메서드
@@ -89,6 +89,10 @@
 8. GroupBy.transform(func, *args, **kwargs) 메서드
 9. df.pivot(index, columns, values) 메서드
 10. GroupBy.apply(func, *args, **kwargs) 메서드
+11. np.sort(array, kind, axis) 함수
+12. df.diff(periods, axis) 메서드
+13. df.ffill/bfill() 메서드 → df.fillna() 메서드의 method 파라미터 이용
+14. df.shift(periods, freq, fill_value) 메서드
 
 
 
