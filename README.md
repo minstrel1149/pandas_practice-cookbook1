@@ -52,7 +52,7 @@
 
 ### Chapter 5. 탐색적 데이터 분석
 1. df.isin(values) 메서드
-2. ser.str 속성 → extract(), replace(), split(), contains() 메서드 등
+2. ser.str 속성 → extract(), replace(), split(pat, expand), contains() 메서드 등
 3. df.pipe(func) 메서드
 4. pd.cut(x, bins, labels), pd.qcut(x, q, labels) 함수
 5. ser.clip(lower, upper) 메서드
@@ -99,6 +99,9 @@
 2. df.melt(id_vars, value_vars, var_name, value_name) 메서드
 3. pd.wide_to_long(df, stubnames, i, j, sep, suffix) 함수
 4. df.pivot(index, columns, values) 메서드
+5. df.pivot_table(index, columns, values, aggfunc, fill_value, margins) 메서드
+6. df.swaplevel(i, j, axis) 메서드
+7. df.rename_axis(mapper, axis) 메서드
 
 
 
