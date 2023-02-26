@@ -48,6 +48,7 @@
 1. df.nlargest/nsmallest(n, columns, keep) 메서드
 2. df.drop_duplicates(subset, keep) 메서드
 3. df.droplevel(level, axis) 메서드
+4. df.apply(func, axis) 메서드
 
 ### Chapter 5. 탐색적 데이터 분석
 1. df.isin(values) 메서드
@@ -79,10 +80,15 @@
 
 ### Chapter 9. 그룹화를 위한 집계, 필터링, 변환
 1. df.groupby(by, as_index, observed, dropna) 메서드
-2. df.groupby.GroupBy.agg(func, *args, **kwargs) 메서드
+2. GroupBy.agg(func, *args, **kwargs) 메서드
 3. pd.NamedAgg(column, aggfunc) 함수
 4. Index.get_level_values(level) 메서드
 5. Index.to_flat_index() 메서드 → 활용하여 flatten_cols 함수 제작 가능
+6. GroupBy.ngroups, GroupBy.groups 속성, GroupBy.get_group(name), GroupBy.nth(n) 메서드
+7. GroupBy.filter(func, dropna, *args, **kwargs) 메서드
+8. GroupBy.transform(func, *args, **kwargs) 메서드
+9. df.pivot(index, columns, values) 메서드
+10. GroupBy.apply(func, *args, **kwargs) 메서드
 
 
 
