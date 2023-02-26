@@ -68,7 +68,7 @@
 ### Chapter 7. 행 필터링
 1. pandas Boolean Indexing에서는 &, |, ~ 사용
 2. iloc 연산자에서 Boolean Array를 활용하려면 to_numpy() 메서드 이용 필요
-3. df.set_index(keys, drop), df.reset_index(level, drop, col_level) 메서드
+3. df.set_index(keys, drop), df.reset_index(level, drop, col_level, name) 메서드
 4. ser.between(left, right, inclusive) 메서드
 5. df.query(expr) 메서드 → SQL WHERE 구문 활용 가능
 6. df.where(cond, other), df.mask(cond, other) 메서드
@@ -93,6 +93,12 @@
 12. df.diff(periods, axis) 메서드
 13. df.ffill/bfill() 메서드 → df.fillna() 메서드의 method 파라미터 이용
 14. df.shift(periods, freq, fill_value) 메서드
+
+### Chapter 10. 정돈된 형식으로 데이터 재구성
+1. df.stack(level, dropna), df.unstack(level, fill_value) 메서드
+2. df.melt(id_vars, value_vars, var_name, value_name) 메서드
+3. pd.wide_to_long(df, stubnames, i, j, sep, suffix) 함수
+4. df.pivot(index, columns, values) 메서드
 
 
 
