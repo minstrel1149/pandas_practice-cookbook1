@@ -72,6 +72,10 @@
 5. df.query(expr) 메서드 → SQL WHERE 구문 활용 가능
 6. df.where(cond, other), df.mask(cond, other) 메서드
 
+### Chapter 8. 인덱스 정렬
+1. 인덱스의 정렬과 카티션 곱의 개념
+2. pd.to_numeric(arg, errors) 함수
+
 
 ### 2022년 7월 30일
 1. Chapter 1 Pandas 기초 관련 복습 진행
