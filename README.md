@@ -104,7 +104,12 @@
 7. df.rename_axis(mapper, axis) 메서드
 
 ### Chapter 11. pandas 객체 병합
-1. 
+1. pd.concat(objs, join, keys, names, ignore_index) 함수
+2. df.join(other, on, how, lsuffix, rsuffix) 메서드
+3. df.merge(right, how, on, left_index, right_index, suffixes) 메서드
+4. df.add_suffix(suffix), df.add_prefix(prefix) 메서드
+5. df.set_axis(label, axis) 메서드
+6. glob.glob() 함수 → Path 모듈의 glob() 메서드로 대체
 
 
 
