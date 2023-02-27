@@ -48,7 +48,7 @@
 1. df.nlargest/nsmallest(n, columns, keep) 메서드
 2. df.drop_duplicates(subset, keep) 메서드
 3. df.droplevel(level, axis) 메서드
-4. df.apply(func, axis) 메서드
+4. df.apply(func, axis, **kwargs) 메서드
 
 ### Chapter 5. 탐색적 데이터 분석
 1. df.isin(values) 메서드
@@ -102,6 +102,9 @@
 5. df.pivot_table(index, columns, values, aggfunc, fill_value, margins) 메서드
 6. df.swaplevel(i, j, axis) 메서드
 7. df.rename_axis(mapper, axis) 메서드
+
+### Chapter 11. pandas 객체 병합
+1. 
 
 
 
