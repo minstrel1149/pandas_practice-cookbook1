@@ -35,7 +35,7 @@
 4. df.min(skipna, axis) 메서드 등
 5. df.equals(df) 메서드, pd.testing.assert_frame_equal(left, right, check_dtype) 함수 등
 6. df.cumsum(axis), df.cummax/cummmin(axis) 메서드
-7. df.sort_values(by, ascending, kind), df.sort_index(level, axis, ascending, kind) 메서드
+7. df.sort_values(by, ascending, kind, key), df.sort_index(level, axis, ascending, kind, key) 메서드
 
 ### Chapter 3. DataFrame 생성과 유지
 1. pd.DataFrame(data, index, column) 함수
@@ -116,9 +116,16 @@
 2. pd.to_timedelta(arg, unit, errors) 함수
 3. Timestamp.ceil/round/floor(freq), Timedelta.ceil/round/floor(freq) 메서드
 4. Timestamp.year/month/day/hour/minute/second 속성
-5. Timestamp.dayofweek/dayofyear/daysinmonth 속성
+5. Timestamp.dayofweek/dayofyear/daysinmonth 속성, Timestamp.day_name() 메서드
 6. Timedelta.components 속성, Timedelta.total_seconds() 메서드
 7. pd.read_hdf(path or buf, key) 함수
+8. pd.Interval(left, right, closed) 함수
+9. pd.date_range(start, end, periods, freq) 함수
+10. df.between_time(start_time, end_time, inclusive), df.at_time(time) 메서드
+11. df.first('5D'/'5B'/'7W'/'3QS'/'A') 메서드
+12. pd.DateOffset(n, normalize, **kwds) 함수
+13. df.resample(rule, on) == df.groupby(pd.Grouper(freq, key)) 메서드
+14. ser.dt 속성
 
 
 
