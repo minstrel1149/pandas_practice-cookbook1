@@ -31,7 +31,7 @@
 ### Chapter 2. 기본 DataFrame 연산
 1. df.select_dtypes(include/exclude) 메서드
 2. df.filter(like/items/regex) 메서드
-3. df.reindex(labels) 메서드
+3. df.reindex(labels), df.reindex_like(other, method) 메서드
 4. df.min(skipna, axis) 메서드 등
 5. df.equals(df) 메서드, pd.testing.assert_frame_equal(left, right, check_dtype) 함수 등
 6. df.cumsum(axis), df.cummax/cummmin(axis) 메서드
