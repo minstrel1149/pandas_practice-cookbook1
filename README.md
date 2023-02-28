@@ -111,6 +111,15 @@
 5. df.set_axis(label, axis) 메서드
 6. glob.glob() 함수 → Path 모듈의 glob() 메서드로 대체
 
+### Chapter 12. 시계열 분석
+1. pd.to_datetime(arg, errors, unit, origin) 함수
+2. pd.to_timedelta(arg, unit, errors) 함수
+3. Timestamp.ceil/round/floor(freq), Timedelta.ceil/round/floor(freq) 메서드
+4. Timestamp.year/month/day/hour/minute/second 속성
+5. Timestamp.dayofweek/dayofyear/daysinmonth 속성
+6. Timedelta.components 속성, Timedelta.total_seconds() 메서드
+7. pd.read_hdf(path or buf, key) 함수
+
 
 
 ### 2022년 7월 30일
