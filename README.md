@@ -139,6 +139,9 @@
 9. ax.set_xticklabels/yticklabels(labels, fontdict, **kwargs) 메서드
 10. ax.tick_params(axis, colors, which, direction, labelsize) 메서드
 11. ax.stackplot(x, y, labels, colors, **kwargs) 메서드
+12. df.interpolate(method, limit_direction) 메서드
+13. ax.annotate(text, xy, xytext, xycoords, **kwargs) 메서드
+
 
 
 
