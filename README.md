@@ -8,8 +8,9 @@
 2. 책에 있는 코드를 단순히 따라하는 것이 아니라 나만의 코드로 작성
 3. 변수명의 경우 Snake Case 활용
 4. 커널은 jupyter notebook의 파이썬 3.9.12 활용
+5. 2023년 2월 말 ~ 3월 초 복습 진행
 
-## README.md 변경 진행 중
+## README.md 변경 진행
 
 ### Chapter 1. Pandas 기초
 1. df.head(n), df.tail(n) 메서드
@@ -143,45 +144,4 @@
 13. ax.annotate(text, xy, xytext, xycoords, **kwargs) 메서드
 14. sns.countplot/barplot(data, x, y, hue, ax, **kwargs) 함수
 15. sns.regplot/lmplot/boxplot/violinplot() 함수 등
-16. sns.catplot(data, x, y, hue, col, row kind 등) 함수
-
-
-
-
-### 2022년 7월 30일
-1. Chapter 1 Pandas 기초 관련 복습 진행
-2. Chapter 2 기본 DataFrame 연산 관련 복습 진행
-3. Chapter 3 DataFrame 생성과 유지 관련 복습 진행
-4. Chapter 4 데이터 분석 시작 관련 복습 진행
-
-### 2022년 7월 31일
-1. Chapter 5 탐색적 데이터 분석 관련 복습 진행
-2. Chapter 6 데이터의 부분 집합 선택 관련 복습 진행
-3. Chapter 7 행 필터링 관련 복습 진행
-4. Chapter 8 인덱스 정렬 관련 복습 진행
-
-### 2022년 8월 1일
-1. Chapter 9 그룹화를 위한 집계, 필터링, 변환 관련 복습 진행(~ing)
-
-### 2022년 8월 2일
-1. Chapter 9 그룹화를 위한 집계, 필터링, 변환 관련 복습 진행
-2. Chapter 10 정돈된 형식으로 데이터 재구성 관련 복습 진행(~ing)
-
-### 2022년 8월 3일
-1. Chapter 10 정돈된 형식으로 데이터 재구성 관련 복습 진행(~ing)
-
-### 2022년 8월 4일
-1. Chapter 10 정돈된 형식으로 데이터 재구성 관련 복습 진행
-2. Chapter 11 Pandas 객체 병합 관련 복습 진행(~ing)
-
-### 2022년 8월 5일
-1. Chapter 11 Pandas 객체 병합 관련 복습 진행
-2. Chapter 12 시계열 분석 관련 복습 진행(~ing)
-
-### 2022년 8월 6일
-1. Chapter 12 시계열 분석 관련 복습 진행
-2. Chapter 13 matplotlib, seaborn을 이용한 시각화 복습 진행(~ing)
-
-### 2022년 8월 7일
-1. Chapter 13 matplotlib, seaborn을 이용한 시각화 복습 진행
-2. Chapter 14 Pandas 디버깅과 테스트 일부 관련 복습 진행
+16. sns.catplot(data, x, y, hue, col, row, kind 등) 함수
