@@ -127,6 +127,19 @@
 13. df.resample(rule, on) == df.groupby(pd.Grouper(freq, key)) 메서드
 14. ser.dt 속성
 
+### Chapter 13. pandas, matplotlib, seaborn을 이용한 시각화1
+1. plt.subplots(nrows, ncols, sharex, sharey, subplot_kw) 함수
+2. np.matrix.ravel() 메서드
+3. ax.set_xlim/ylim(left, right), ax.set_xlabel/ylabel(xlabel, fontdict, loc, **kwargs) 메서드
+4. ax.set_title(label, fontdict, loc, **kwargs),  fig.suptitle(t, x, y, **kwargs) 메서드
+5. fig.get_size_inches(), fig.set_size_inches(w, h) 메서드
+6. fig/ax.set_facecolor(color) 메서드
+7. ax.spines 속성 → set_linewidth(linewidth), set_visible(b) 메서드 등
+8. ax.set_xticks/yticks(ticks, labels, **kwargs) 메서드
+9. ax.set_xticklabels/yticklabels(labels, fontdict, **kwargs) 메서드
+10. ax.tick_params(axis, colors, which, direction, labelsize) 메서드
+11. ax.stackplot(x, y, labels, colors, **kwargs) 메서드
+
 
 
 ### 2022년 7월 30일
