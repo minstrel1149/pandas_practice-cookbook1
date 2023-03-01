@@ -141,6 +141,9 @@
 11. ax.stackplot(x, y, labels, colors, **kwargs) 메서드
 12. df.interpolate(method, limit_direction) 메서드
 13. ax.annotate(text, xy, xytext, xycoords, **kwargs) 메서드
+14. sns.countplot/barplot(data, x, y, hue, ax, **kwargs) 함수
+15. sns.regplot/lmplot/boxplot/violinplot() 함수 등
+16. sns.catplot(data, x, y, hue, col, row kind 등) 함수
 
 
 
